@@ -16,8 +16,10 @@ public class Test_12 {
         int ussu=1;
 
         while (sayac<=us){
+
             ussu*=taban;
             sayac++;
+
         }
 
         System.out.println(taban+" sayisinin "+us+" ussu: "+ussu);

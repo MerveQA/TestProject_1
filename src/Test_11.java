@@ -22,9 +22,11 @@ public class Test_11 {
             int sayi=sc.nextInt();
 
             if (sayi<0){
+
                 negatifToplam+=sayi;
                 negatifSayac++;
             }else {
+
                 pozitifToplam+=sayi;
                 pozitifSayac++;
             }
