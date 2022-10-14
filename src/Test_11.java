@@ -15,9 +15,7 @@ public class Test_11 {
         int pozitifSayac=0;
         int pozitifToplam=0;
 
-
-        while(sayac<=15){
-
+        do {
             System.out.print(sayac+". sayiyi girin: ");
             int sayi=sc.nextInt();
 
@@ -31,7 +29,7 @@ public class Test_11 {
                 pozitifSayac++;
             }
             sayac++;
-        }
+        }while (sayac<=15);
 
         System.out.println(pozitifSayac+" adet pozitif girilen sayilarin ortalamasi: "+(pozitifToplam/pozitifSayac));
         System.out.println(negatifSayac+" adet negatif girilen sayilarin ortalamasi: "+(negatifToplam/negatifSayac));
